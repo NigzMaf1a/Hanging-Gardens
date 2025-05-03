@@ -3,7 +3,7 @@
 $servername = getenv('DB_SERVER') ?: 'localhost'; // Default to 'localhost' if not set
 $username = getenv('DB_USERNAME') ?: 'root'; // Default to 'root' if not set
 $password = getenv('DB_PASSWORD') ?: 'Itz3ree!'; // Default password, but should be in env variables
-$dbname = getenv('DB_NAME') ?: 'hangingGardens'; // Default database
+$dbname = getenv('DB_NAME') ?: 'hangingGardens'; // Default
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
