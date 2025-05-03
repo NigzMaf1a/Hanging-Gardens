@@ -2,7 +2,7 @@
 // Load environment variables (use .env file or other secure methods for production)
 $servername = getenv('DB_SERVER') ?: 'localhost'; // Default to 'localhost' if not set
 $username = getenv('DB_USERNAME') ?: 'root'; // Default to 'root' if not set
-$password = getenv('DB_PASSWORD') ?: 'Itz3ree!'; // Default password, but should be in env variables
+$password = getenv('DB_PASSWORD') ?: 'Itz3ree!'; // Default password, but should be in env
 $dbname = getenv('DB_NAME') ?: 'hangingGardens';
 
 // Create connection
