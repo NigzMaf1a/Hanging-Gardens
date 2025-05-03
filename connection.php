@@ -15,6 +15,6 @@ if ($conn->connect_error) {
     die("Connection failed. Please try again later.");
 } else {
     // Optionally log success to a debug file (not recommended in production)
-    // error_log("Connected successfully to database: $dbname");
+    error_log("Connected successfully to database: $dbname");
 }
 ?>
