@@ -1,7 +1,7 @@
 <?php
 // Load environment variables (use .env file or other secure methods for production)
 $servername = getenv('DB_SERVER') ?: 'localhost'; // Default to 'localhost' if not set
-$username = getenv('DB_USERNAME') ?: 'root'; // Default to 'root' if not set
+$username = getenv('DB_USERNAME') ?: 'root'; // Default to 'root' if not
 $password = getenv('DB_PASSWORD') ?: 'Itz3ree!';
 $dbname = getenv('DB_NAME') ?: 'hangingGardens';
 
