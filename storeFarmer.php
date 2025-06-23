@@ -1,5 +1,5 @@
 <?php
-// Include the database
+// Include the
 include('connection.php');
 
 // Get the POST data from the request body
